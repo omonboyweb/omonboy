@@ -48,7 +48,7 @@ li {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0, 0.15);
 }
 
-.h1{
+.h1 {
     margin: 15px 0px;
 }
 
@@ -89,4 +89,10 @@ li {
 
 .social-media div {
     cursor: pointer;
+}
+
+@media screen and (max-witdh:480px) {
+    .container {
+        height: 100vh;
+    }
 }
